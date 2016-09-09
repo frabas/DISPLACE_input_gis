@@ -3,8 +3,6 @@
 # --------------
 # input folder for config file
 C:/Users/fbas/Documents/GitHub/DISPLACE_input_gis/balticRTI
-# output folder for parameterisation file
-C:/Users/fbas/Documents/GitHub/DISPLACE_input_raw
 # input folder for DISPLACE
 C:/Users/fbas/Documents/GitHub/DISPLACE_input_balticRTI
 # name of the application
@@ -14,45 +12,45 @@ balticRTI
 # append to existing vessel files
 TRUE
 # name gis file for total effort per polygon
-SWE_gis_feffort_other SWE_gis_feffort_OTB_DEF_o105_1_120 SWE_gis_feffort_OTT_CRU_70_89_2_35 SWE_gis_feffort_OTT_DEF_o105_1_120
+SWE_gis_feffort_OTT_DEF_o105_1_120
 # name_gis_layer_field
-feffort feffort feffort feffort
+feffort
 # is_gis_layer_field_relative_numbers
 FALSE
 # xfold_gis_layer_field
 1
 # vesselids
-SWE_1
+SWE_2
 # vessel_range_km
 100
 # metierids
-2 8 11 12
+3
 # metierids_frequencies
-0.06627537 0.3130322 0.4002587 0.2204337
+1
 # visited_ports (look at the names in harbours.dat in /harboursspe)
-Sandvig Simrishamn Skillinge Träslövsläge Varberg
+Simrishamn Träslövsläge
 # visited_ports_frequencies
-0.00775965 0.00718265 0.01792678 0.2568245 0.7103064
+0.9030469 0.09695309
 # name_file_ports
 harbours.dat
 # nb fish or shellfish stocks (should be consistent with /popsspe)
 13
 # fixed cpue per stock on fgrounds(plan B)
-96.3357761145069 96.3357761145069 0 0 4.02569566115564 4.02569566115564 0.096294413017225 1.88003593228097 0 0.0141834610116371 0 0 0
+103.743460908124 103.743460908124 0 0 0.525874749109357 0.525874749109357 0 7.08494272774734 0.00601473881944945 0.0375963293171058 0 0 0
 # Gamma (shape parameter) cpue per stock on fgrounds (plan A but for implicit stocks or out of range nodes)
 1 1 1 1 1 1 1 1 1 1 1 1 1
 # Gamma (scale parameter) cpue per stock on fgrounds(plan A but for implicit stocks or out of range nodes)
-96.3357761145069 96.3357761145069 0 0 4.02569566115564 4.02569566115564 0.096294413017225 1.88003593228097 0 0.0141834610116371 0 0 0
+103.743460908124 103.743460908124 0 0 0.525874749109357 0.525874749109357 0 7.08494272774734 0.00601473881944945 0.0375963293171058 0 0 0
 # vessel features (speed, fuelconsrate, length, kW, carrying_capacity, tank_capacity, nb_pings_per_trip, shape_in_btw, scale_in_btw, av.trip.duration)
 #  mult_fuelcons_when_steaming, mult_fuelcons_when_fishing, mult_fuelcons_when_returning, mult_fuelcons_when_inactive) 
-10 83.98028 17.04 339 32851 9146 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22
+10 239.9772 31.74 1000 180373 23074 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22
 # percent step in share for TAC (per stock) for these incoming vessels (only used if existing vessels)
-0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318 0.001117318
+0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
 # vessel effect (per stock) in the catch rate equation 
-4.56794355492181 4.56794355492181 -4.60517018598809 -4.60517018598809 1.3951786935916 1.3951786935916 -2.24154255364931 0.636595840679704 -4.60517018598809 -3.72208630873493 -4.60517018598809 -4.60517018598809 -4.60517018598809
+4.64201751670503 4.64201751670503 -4.60517018598809 -4.60517018598809 -0.623854822252849 -0.623854822252849 -4.60517018598809 1.95938223838032 -4.1342458045492 -3.04499963590514 -4.60517018598809 -4.60517018598809 -4.60517018598809
 # create the file for fuel price per vessel size  
 TRUE
 # some fuel price per vessel size (Euro per litre) 
 0.4 0.4 0.4 0.4 0.4
 # i% fishing credits taken from incomers (for RTI management) 
-0.001117318
+0.09090909
