@@ -34,20 +34,20 @@ NA55 Travemünde
 # name_file_ports
 harbours.dat
 # nb fish or shellfish stocks (should be consistent with /popsspe)
-13
+2
 # fixed cpue per stock on fgrounds(plan B)
-65.9026617113028 65.9026617113028 1.14906945074898 1.14906945074898 7.5243971289151 7.5243971289151 0.017703132092601 0 1.03924194280527 0.808726736268725 0 0 0
+65.9026617113028 65.9026617113028
 # Gamma (shape parameter) cpue per stock on fgrounds (plan A but for implicit stocks or out of range nodes)
-1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1
 # Gamma (scale parameter) cpue per stock on fgrounds(plan A but for implicit stocks or out of range nodes)
-65.9026617113028 65.9026617113028 1.14906945074898 1.14906945074898 7.5243971289151 7.5243971289151 0.017703132092601 0 1.03924194280527 0.808726736268725 0 0 0
+65.9026617113028 65.9026617113028
 # vessel features (speed, fuelconsrate, length, kW, carrying_capacity, tank_capacity, nb_pings_per_trip, shape_in_btw, scale_in_btw, av.trip.duration)
 #  mult_fuelcons_when_steaming, mult_fuelcons_when_fishing, mult_fuelcons_when_returning, mult_fuelcons_when_inactive) 
 10 34.18397 15 128 23170 7565 10 0.4485 336.7618 20 1 0 1.1 0.15 5 6 5 22
 # percent step in share for TAC (per stock) for these incoming vessels (only used if existing vessels)
-0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
+0.09090909 0.09090909
 # vessel effect (per stock) in the catch rate equation 
-4.18833055827748 4.18833055827748 0.147617485555384 0.147617485555384 2.01947881944357 2.01947881944357 -3.58620980024594 -4.60517018598809 0.0480679441982816 -0.20000490615394 -4.60517018598809 -4.60517018598809 -4.60517018598809
+4.18833055827748 4.18833055827748
 # create the file for fuel price per vessel size  
 TRUE
 # some fuel price per vessel size (Euro per litre) 

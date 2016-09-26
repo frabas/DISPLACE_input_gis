@@ -34,20 +34,20 @@ Simrishamn Träslövsläge
 # name_file_ports
 harbours.dat
 # nb fish or shellfish stocks (should be consistent with /popsspe)
-13
+2
 # fixed cpue per stock on fgrounds(plan B)
-103.743460908124 103.743460908124 0 0 0.525874749109357 0.525874749109357 0 7.08494272774734 0.00601473881944945 0.0375963293171058 0 0 0
+103.743460908124 103.743460908124
 # Gamma (shape parameter) cpue per stock on fgrounds (plan A but for implicit stocks or out of range nodes)
-1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1
 # Gamma (scale parameter) cpue per stock on fgrounds(plan A but for implicit stocks or out of range nodes)
-103.743460908124 103.743460908124 0 0 0.525874749109357 0.525874749109357 0 7.08494272774734 0.00601473881944945 0.0375963293171058 0 0 0
+103.743460908124 103.743460908124
 # vessel features (speed, fuelconsrate, length, kW, carrying_capacity, tank_capacity, nb_pings_per_trip, shape_in_btw, scale_in_btw, av.trip.duration)
 #  mult_fuelcons_when_steaming, mult_fuelcons_when_fishing, mult_fuelcons_when_returning, mult_fuelcons_when_inactive) 
 10 239.9772 31.74 1000 180373 23074 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22
 # percent step in share for TAC (per stock) for these incoming vessels (only used if existing vessels)
-0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909 0.09090909
+0.09090909 0.09090909
 # vessel effect (per stock) in the catch rate equation 
-4.64201751670503 4.64201751670503 -4.60517018598809 -4.60517018598809 -0.623854822252849 -0.623854822252849 -4.60517018598809 1.95938223838032 -4.1342458045492 -3.04499963590514 -4.60517018598809 -4.60517018598809 -4.60517018598809
+4.64201751670503 4.64201751670503
 # create the file for fuel price per vessel size  
 TRUE
 # some fuel price per vessel size (Euro per litre) 
