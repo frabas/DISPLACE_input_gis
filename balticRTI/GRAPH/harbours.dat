@@ -1,4 +1,4 @@
-x;y;idx.port
+port_name;lon;lat;idx_port
 BaabeOstseebad;13.715744;54.362458;1
 Barth;12.72666667;54.37166667;2
 Bensersiel;7.575;53.675;3
