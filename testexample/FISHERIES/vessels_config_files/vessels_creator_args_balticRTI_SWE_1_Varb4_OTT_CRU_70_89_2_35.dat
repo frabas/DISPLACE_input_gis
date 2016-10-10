@@ -1,0 +1,56 @@
+# config file for the vessel editor: adding some vessel(s)
+# (the shortestPaths library will have to be re-created for the graph)
+# --------------
+# input folder for config file
+C:/Users/fbas/Documents/GitHub/DISPLACE_input_gis/balticRTI
+# input folder for DISPLACE
+C:/Users/fbas/Documents/GitHub/DISPLACE_input_balticRTI
+# name of the application
+balticRTI
+# name of the graph for this application
+56
+# append to existing vessel files
+TRUE
+# name gis file for total effort per polygon
+SWE_gis_feffort_OTT_CRU_70_89_2_35 SWE_gis_feffort_OTT_DEF_o105_1_120
+# name_gis_layer_field
+feffort feffort
+# is_gis_layer_field_relative_numbers
+FALSE
+# xfold_gis_layer_field
+1
+# vesselids
+SWE_1
+# vessel_range_km
+100
+# metierids
+2 3
+# metierids_frequencies
+0.6448583 0.3551417
+# visited_ports (look at the names in harbours.dat in /harboursspe)
+Sandvig Simrishamn Skillinge Träslövsläge Varberg
+# visited_ports_frequencies
+0.0125016 0.011572 0.01541864 0.331036 0.6294717
+# name_file_ports
+harbours.dat
+# nb fish or shellfish stocks (should be consistent with /popsspe)
+2
+# fixed cpue per stock on fgrounds(plan B)
+107.041597021588 107.041597021588
+# Gamma (shape parameter) cpue per stock on fgrounds (plan A but for implicit stocks or out of range nodes)
+1 1
+# Gamma (scale parameter) cpue per stock on fgrounds(plan A but for implicit stocks or out of range nodes)
+107.041597021588 107.041597021588
+# vessel features (speed, fuelconsrate, length, kW, carrying_capacity, tank_capacity, nb_pings_per_trip, shape_in_btw, scale_in_btw, av.trip.duration)
+#  mult_fuelcons_when_steaming, mult_fuelcons_when_fishing, mult_fuelcons_when_returning, mult_fuelcons_when_inactive) 
+10 83.98028 17.04 339 32851 9146 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22
+# percent step in share for TAC (per stock) for these incoming vessels (only used if existing vessels)
+0.09090909 0.09090909
+# vessel effect (per stock) in the catch rate equation 
+4.67331093338857 4.67331093338857
+# create the file for fuel price per vessel size  
+TRUE
+# some fuel price per vessel size (Euro per litre) 
+0.4 0.4 0.4 0.4 0.4
+# i% fishing credits taken from incomers (for RTI management) 
+0.09090909
