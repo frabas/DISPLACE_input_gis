@@ -43,7 +43,7 @@ harbours.dat
 0 0
 # [vessel_features_speed_fuelconsrate_length_kW_carryingcapacity_tankcapacity_nbpingspertrip_shapeinbtw_scaleinbtw_avtripduration]
 # [multfuelconswhensteaming_multfuelconswhenfishing_multfuelconswhenreturning_multfuelconswheninactive]
-10 51.88408 15 203 23170 7565 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22
+10 51.88408 15 203 23170 7565 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22 1
 # [percent_step_in_share_for_TAC_per_stock_for_these_incoming_vessels_but_only_used_if_existing_vessels_already]
 0.09090909 0.09090909
 # [vessel_effect_per_stock_in_the_catch_rate_equation]
