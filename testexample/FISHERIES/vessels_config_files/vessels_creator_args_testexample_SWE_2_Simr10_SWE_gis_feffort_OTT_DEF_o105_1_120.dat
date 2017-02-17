@@ -12,7 +12,7 @@ testexample
 # [append_to_existing_vessel_files]
 TRUE
 # [name_gis_file_for_total_effort_per_polygon]
-DNK_gis_feffort_GNS_DEF_o157_0_0
+SWE_gis_feffort_OTT_DEF_o105_1_120
 # [name_gis_layer_field]
 feffort
 # [is_gis_layer_field_relative_numbers]
@@ -20,34 +20,34 @@ FALSE
 # [xfold_gis_layer_field]
 1
 # [vesselids]
-DNK000001391
+SWE_2
 # [vessel_range_km]
-30
+100
 # [metierids]
-0
+3
 # [metierids_frequencies]
 1
 # [visited_ports_but_look_at_names_in_harbours.dat_in_harboursspe_folder]
-NA55 Travemünde
+Simrishamn Träslövsläge
 # [visited_ports_frequencies]
-0.9483427 0.05165734
+0.9030469 0.09695309
 # [name_file_ports]
 harbours.dat
 # [nb_fish_or_shellfish_stocks_which_should_be_consistent_with_popsspe_folder]
 2
 # [fixed_cpue_per_stock_on_fgrounds_for_planB]
-65.9026617113028 65.9026617113028
+103.74346093 103.74346093
 # [Gamma_shape_parameter_for_cpue_per_stock_on_fgrounds_for_planA_but_for_implicit_stocks_or_out_of_range_nodes]
 1 1
 # [Gamma_scale_parameter_for_cpue_per_stock_on_fgrounds_for_planA_but_for_implicit_stocks_or_out_of_range_nodes]
-65.9026617113028 65.9026617113028
+103.74346093 103.74346093
 # [vessel_features_speed_fuelconsrate_length_kW_carryingcapacity_tankcapacity_nbpingspertrip_shapeinbtw_scaleinbtw_avtripduration]
-# [multfuelconswhensteaming_multfuelconswhenfishing_multfuelconswhenreturning_multfuelconswheninactive]
-10 34.18397 15 128 23170 7565 10 0.4485 336.7618 20 1 0 1.1 0.15 5 6 5 22 2
+# [multfuelconswhensteaming_multfuelconswhenfishing_multfuelconswhenreturning_multfuelconswheninactive_firmid]
+10 239.9772 31.74 1000 180373 23074 10 0.4485 336.7618 20 1 0.9 1.1 0.15 5 6 5 22 4
 # [percent_step_in_share_for_TAC_per_stock_for_these_incoming_vessels_but_only_used_if_existing_vessels_already]
 0.09090909 0.09090909
 # [vessel_effect_per_stock_in_the_catch_rate_equation]
-4.18833055827748 4.18833055827748
+4.64201751691588 4.64201751691588
 # [metier_effect_per_stock_in_the_catch_rate_equation]
 0
 0
