@@ -1,0 +1,5 @@
+VE_REF;Landing_costs_percent;Crewshare_and_unpaid_labour_costs_percent;Other_variable_costs_per_unit_effort;Annual_insurance_costs_per_crew;Standard_labour_hour_opportunity_costs;Standard_annual_full_time_employment_hours;Other_variable_costs_per_unit_effort;Other_annual_fixed_costs;Vessel_value;Annual_depreciation_rate;Opportunity_interest_rate;Annual_discount_rate
+DNK000001403;0.0;50.0;50;1000;10;2000;100;10000;100000;0.20;4;4
+DNK000001391;0.0;50.0;50;1000;10;2000;;100;10000;100000;0.20;4;4
+SWE_1;0.0;50.0;50;1000;10;2000;100;10000;100000;0.20;4;4
+SWE_2;0.0;50.0;50;1000;10;2000;100;10000;100000;0.20;4;4
